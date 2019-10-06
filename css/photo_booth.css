@@ -1,0 +1,147 @@
+html,
+body {
+  margin: 0;
+}
+#wrapper-0 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+#contents-container {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+}
+#video-canvas-container {
+  position: relative;
+  left: 0;
+  top: 0;
+  border: solid 2px blue;
+  display: none;
+}
+#videoContainer {
+  margin: 20px;
+  background-color: black;
+  border: solid 1px red;
+}
+#videoElement {
+  width: 400px;
+  height: 400px;
+  /* margin: 20px; */
+  background-color: black;
+}
+
+#upload-img-container {
+  display: flex;
+  flex-direction: column;
+}
+.overflow {
+  width: 200px;
+  height: 400px;
+  overflow: auto;
+  border: solid 1px red;
+  background-color: white;
+}
+.image-to-merge {
+  width: 200px;
+  height: auto;
+}
+.scroll-button-wrapper {
+  margin: 20px;
+  border: solid 1px blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightcyan;
+}
+.photo-wrapper {
+  border: solid 1px green;
+}
+.generated-img {
+  width: 200px;
+  height: auto;
+}
+.face {
+  width: 400px;
+  height: auto;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+#player {
+  width: 400px;
+  height: auto;
+}
+#frame {
+  width: 400px;
+  height: auto;
+}
+.filter {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+#nav {
+  height: 50px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo-container {
+  margin-left: 10px;
+  cursor: pointer;
+}
+#my-library-container {
+  margin-right: 10px;
+}
+#gallery-log-out-container {
+  display: flex;
+}
+#profile-container {
+  margin-right: 10px;
+  cursor: pointer;
+}
+#log-out-container {
+  margin-right: 10px;
+  cursor: pointer;
+}
+#my-file {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  border: solid 1px green;
+  background-color: black;
+}
+
+#tab-bar {
+  height: 100px;
+  background-color: antiquewhite;
+  /* border: solid 3px red; */
+  display: flex;
+}
+
+#camera-tab {
+  flex: 1;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#upload-tab {
+  flex: 1;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
